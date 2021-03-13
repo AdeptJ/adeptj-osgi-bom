@@ -1,2 +1,3 @@
-# adeptj-bom
-Bill of materials for various AdeptJ projects dependencies.
+# adeptj-osgi-bom
+The Bill of Materials for OSGi(Felix) Framework dependencies.
+
