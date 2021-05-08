@@ -78,7 +78,7 @@
         <felix.fileinstall.version>3.6.8</felix.fileinstall.version>
         <felix.http.sslfilter.version>1.2.6</felix.http.sslfilter.version>
         <felix.scr.version>2.1.26</felix.scr.version>
-        <felix.configadmin.version>1.9.20</felix.configadmin.version>
+        <felix.configadmin.version>1.9.22</felix.configadmin.version>
         <felix.eventadmin.version>1.6.2</felix.eventadmin.version>
         <felix.cm.json.version>1.0.6</felix.cm.json.version>
         <felix.rootcause.version>0.1.0</felix.rootcause.version>
