@@ -81,13 +81,6 @@
         <felix.configadmin.version>1.9.22</felix.configadmin.version>
         <felix.eventadmin.version>1.6.2</felix.eventadmin.version>
         <felix.cm.json.version>1.0.6</felix.cm.json.version>
-        <felix.rootcause.version>0.1.0</felix.rootcause.version>
-        <felix.systemready.version>0.4.2</felix.systemready.version>
-        <felix.healthcheck.api.version>2.0.4</felix.healthcheck.api.version>
-        <felix.healthcheck.annotation.version>2.0.0</felix.healthcheck.annotation.version>
-        <felix.healthcheck.core.version>2.0.8</felix.healthcheck.core.version>
-        <felix.healthcheck.generalchecks.version>2.0.6</felix.healthcheck.generalchecks.version>
-        <felix.healthcheck.webconsoleplugin.version>2.0.2</felix.healthcheck.webconsoleplugin.version>
         <felix.configadmin.plugin.interpolation.version>1.1.2</felix.configadmin.plugin.interpolation.version>
         <!-- Apache Felix Dependencies End -->
     </properties>
@@ -95,13 +88,13 @@
     <!-- Project Information -->
     <organization>
         <name>AdeptJ</name>
-        <url>http://www.adeptj.com</url>
+        <url>https://www.adeptj.com</url>
     </organization>
 
     <licenses>
         <license>
             <name>Apache License Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -113,7 +106,7 @@
             <email>irakeshk@outlook.com</email>
             <url>https://www.linkedin.com/in/rakeshk15</url>
             <organization>AdeptJ</organization>
-            <organizationUrl>http://www.adeptj.com</organizationUrl>
+            <organizationUrl>https://www.adeptj.com</organizationUrl>
             <roles>
                 <role>architect</role>
                 <role>developer</role>
@@ -328,26 +321,6 @@
 
             <dependency>
                 <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.api</artifactId>
-                <version>${felix.healthcheck.api.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>osgi.core</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.annotation</artifactId>
-                <version>${felix.healthcheck.annotation.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
                 <artifactId>org.apache.felix.webconsole</artifactId>
                 <version>${felix.webconsole.version}</version>
                 <scope>provided</scope>
@@ -359,19 +332,6 @@
                     <exclusion>
                         <groupId>org.osgi</groupId>
                         <artifactId>org.osgi.compendium</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.systemready</artifactId>
-                <version>${felix.systemready.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.ops4j.pax.url</groupId>
-                        <artifactId>pax-url-aether</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -510,34 +470,6 @@
                 <groupId>org.apache.felix</groupId>
                 <artifactId>org.apache.felix.http.sslfilter</artifactId>
                 <version>${felix.http.sslfilter.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.rootcause</artifactId>
-                <version>${felix.rootcause.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.core</artifactId>
-                <version>${felix.healthcheck.core.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.generalchecks</artifactId>
-                <version>${felix.healthcheck.generalchecks.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.webconsoleplugin</artifactId>
-                <version>${felix.healthcheck.webconsoleplugin.version}</version>
                 <scope>provided</scope>
             </dependency>
 
