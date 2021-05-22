@@ -66,7 +66,6 @@
         <felix.webconsole.version>4.6.0</felix.webconsole.version>
         <felix.configurator.version>1.0.14</felix.configurator.version>
         <felix.converter.version>1.0.14</felix.converter.version>
-        <felix.jaas.version>1.0.2</felix.jaas.version>
         <felix.webconsole.plugins.packageadmin.version>1.0.4</felix.webconsole.plugins.packageadmin.version>
         <felix.webconsole.plugins.event.version>1.1.8</felix.webconsole.plugins.event.version>
         <felix.webconsole.plugins.ds.version>2.1.0</felix.webconsole.plugins.ds.version>
@@ -296,13 +295,6 @@
                 <version>${felix.http.bridge.version}</version>
                 <scope>provided</scope>
                 <classifier>light</classifier>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.jaas</artifactId>
-                <version>${felix.jaas.version}</version>
-                <scope>provided</scope>
             </dependency>
 
             <dependency>
