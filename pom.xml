@@ -65,7 +65,7 @@
         <felix.http.base.version>4.1.2</felix.http.base.version>
         <felix.webconsole.version>4.6.0</felix.webconsole.version>
         <felix.configurator.version>1.0.14</felix.configurator.version>
-        <felix.converter.version>1.0.16</felix.converter.version>
+        <felix.converter.version>1.0.18</felix.converter.version>
         <felix.webconsole.plugins.packageadmin.version>1.0.4</felix.webconsole.plugins.packageadmin.version>
         <felix.webconsole.plugins.event.version>1.1.8</felix.webconsole.plugins.event.version>
         <felix.webconsole.plugins.ds.version>2.1.0</felix.webconsole.plugins.ds.version>
