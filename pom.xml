@@ -63,14 +63,14 @@
         <felix.framework.version>7.0.0</felix.framework.version>
         <felix.http.bridge.version>4.1.2</felix.http.bridge.version>
         <felix.http.base.version>4.1.2</felix.http.base.version>
-        <felix.webconsole.version>4.6.0</felix.webconsole.version>
+        <felix.webconsole.version>4.6.2</felix.webconsole.version>
         <felix.configurator.version>1.0.14</felix.configurator.version>
         <felix.converter.version>1.0.18</felix.converter.version>
         <felix.webconsole.plugins.packageadmin.version>1.0.4</felix.webconsole.plugins.packageadmin.version>
         <felix.webconsole.plugins.event.version>1.1.8</felix.webconsole.plugins.event.version>
         <felix.webconsole.plugins.ds.version>2.1.0</felix.webconsole.plugins.ds.version>
         <felix.webconsole.plugins.memoryusage.version>1.0.10</felix.webconsole.plugins.memoryusage.version>
-        <felix.inventory.version>1.0.6</felix.inventory.version>
+        <felix.inventory.version>1.1.0</felix.inventory.version>
         <felix.log.version>1.2.4</felix.log.version>
         <felix.metatype.version>1.2.4</felix.metatype.version>
         <felix.threaddump.version>1.0.0</felix.threaddump.version>
