@@ -80,7 +80,7 @@
         <felix.configadmin.version>1.9.22</felix.configadmin.version>
         <felix.eventadmin.version>1.6.2</felix.eventadmin.version>
         <felix.cm.json.version>1.0.6</felix.cm.json.version>
-        <felix.configadmin.plugin.interpolation.version>1.1.4</felix.configadmin.plugin.interpolation.version>
+        <felix.configadmin.plugin.interpolation.version>1.2.0</felix.configadmin.plugin.interpolation.version>
         <!-- Apache Felix Dependencies End -->
     </properties>
 
