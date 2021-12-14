@@ -61,8 +61,8 @@
 
         <!-- Apache Felix Dependencies Start -->
         <felix.framework.version>7.0.3</felix.framework.version>
-        <felix.http.bridge.version>4.1.4</felix.http.bridge.version>
-        <felix.http.base.version>4.1.4</felix.http.base.version>
+        <felix.http.bridge.version>4.1.6</felix.http.bridge.version>
+        <felix.http.base.version>4.1.6</felix.http.base.version>
         <felix.webconsole.version>4.7.0</felix.webconsole.version>
         <felix.configurator.version>1.0.14</felix.configurator.version>
         <felix.converter.version>1.0.18</felix.converter.version>
