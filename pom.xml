@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-osgi-bom</artifactId>
-    <version>2</version>
+    <version>4</version>
     <packaging>pom</packaging>
     <name>AdeptJ OSGi Bill of Materials</name>
     <description>The Bill of Materials for OSGi(Felix) Framework dependencies.</description>
@@ -32,31 +32,31 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
 
         <!-- OSGi Dependencies Start -->
         <osgi.framework.version>1.10.0</osgi.framework.version>
         <osgi.service.component.annotations.version>1.5.0</osgi.service.component.annotations.version>
-        <osgi.service.metatype.annotations.version>1.4.0</osgi.service.metatype.annotations.version>
+        <osgi.service.metatype.annotations.version>1.4.1</osgi.service.metatype.annotations.version>
         <osgi.annotation.versioning.version>1.1.2</osgi.annotation.versioning.version>
         <osgi.annotation.bundle.version>1.1.1</osgi.annotation.bundle.version>
         <osgi.service.component.version>1.5.0</osgi.service.component.version>
-        <osgi.service.cm.version>1.6.0</osgi.service.cm.version>
-        <osgi.service.log.version>1.4.0</osgi.service.log.version>
-        <osgi.service.http.whiteboard.version>1.1.0</osgi.service.http.whiteboard.version>
-        <osgi.service.jdbc.version>1.0.0</osgi.service.jdbc.version>
-        <osgi.service.event.version>1.4.0</osgi.service.event.version>
-        <osgi.util.tracker.version>1.5.3</osgi.util.tracker.version>
-        <osgi.service.metatype.version>1.4.0</osgi.service.metatype.version>
-        <osgi.util.converter.version>1.0.1</osgi.util.converter.version>
-        <osgi.util.pushstream.version>1.0.1</osgi.util.pushstream.version>
-        <osgi.service.configurator.version>1.0.0</osgi.service.configurator.version>
-        <osgi.util.promise.version>1.1.1</osgi.util.promise.version>
-        <osgi.util.function.version>1.1.0</osgi.util.function.version>
+        <osgi.service.cm.version>1.6.1</osgi.service.cm.version>
+        <osgi.service.log.version>1.5.0</osgi.service.log.version>
+        <osgi.service.http.whiteboard.version>1.1.1</osgi.service.http.whiteboard.version>
+        <osgi.service.jdbc.version>1.0.1</osgi.service.jdbc.version>
+        <osgi.service.event.version>1.4.1</osgi.service.event.version>
+        <osgi.util.tracker.version>1.5.4</osgi.util.tracker.version>
+        <osgi.service.metatype.version>1.4.1</osgi.service.metatype.version>
+        <osgi.util.converter.version>1.0.8</osgi.util.converter.version>
+        <osgi.util.pushstream.version>1.0.2</osgi.util.pushstream.version>
+        <osgi.service.configurator.version>1.0.1</osgi.service.configurator.version>
+        <osgi.util.promise.version>1.2.0</osgi.util.promise.version>
+        <osgi.util.function.version>1.2.0</osgi.util.function.version>
         <osgi.service.condition.version>1.0.0</osgi.service.condition.version>
         <!-- OSGi Dependencies End -->
 
