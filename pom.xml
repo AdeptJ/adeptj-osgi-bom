@@ -57,6 +57,7 @@
         <osgi.service.configurator.version>1.0.0</osgi.service.configurator.version>
         <osgi.util.promise.version>1.1.1</osgi.util.promise.version>
         <osgi.util.function.version>1.1.0</osgi.util.function.version>
+        <osgi.service.condition.version>1.0.0</osgi.service.condition.version>
         <!-- OSGi Dependencies End -->
 
         <!-- Apache Felix Dependencies Start -->
@@ -268,6 +269,13 @@
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.util.promise</artifactId>
                 <version>${osgi.util.promise.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.service.condition</artifactId>
+                <version>${osgi.service.condition.version}</version>
                 <scope>provided</scope>
             </dependency>
 
