@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-osgi-bom</artifactId>
-    <version>3</version>
+    <version>4</version>
     <packaging>pom</packaging>
     <name>AdeptJ OSGi Bill of Materials</name>
     <description>The Bill of Materials for OSGi(Felix) Framework dependencies.</description>
@@ -34,9 +34,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
-        <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
-        <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
+        <maven-javadoc-plugin.version>3.3.2</maven-javadoc-plugin.version>
+        <maven-deploy-plugin.version>3.0.0-M2</maven-deploy-plugin.version>
+        <nexus-staging-maven-plugin.version>1.6.11</nexus-staging-maven-plugin.version>
 
         <!-- OSGi Dependencies Start -->
         <osgi.framework.version>1.10.0</osgi.framework.version>
