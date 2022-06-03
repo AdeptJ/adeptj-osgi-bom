@@ -61,7 +61,7 @@
         <!-- OSGi Dependencies End -->
 
         <!-- Apache Felix Dependencies Start -->
-        <felix.framework.version>7.0.4</felix.framework.version>
+        <felix.framework.version>7.0.5</felix.framework.version>
         <felix.http.bridge.version>4.2.0</felix.http.bridge.version>
         <felix.http.base.version>4.2.0</felix.http.base.version>
         <felix.webconsole.version>4.8.2</felix.webconsole.version>
