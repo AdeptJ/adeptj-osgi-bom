@@ -78,7 +78,7 @@
         <felix.metatype.version>1.2.4</felix.metatype.version>
         <felix.threaddump.version>1.0.0</felix.threaddump.version>
         <felix.fileinstall.version>3.7.4</felix.fileinstall.version>
-        <felix.http.sslfilter.version>1.2.6</felix.http.sslfilter.version>
+        <felix.http.sslfilter.version>2.0.0-SNAPSHOT</felix.http.sslfilter.version>
         <felix.scr.version>2.2.4</felix.scr.version>
         <felix.configadmin.version>1.9.26</felix.configadmin.version>
         <felix.eventadmin.version>1.6.4</felix.eventadmin.version>
