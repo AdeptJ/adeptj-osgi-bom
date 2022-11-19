@@ -86,6 +86,7 @@
         <felix.configadmin.plugin.interpolation.version>1.2.6</felix.configadmin.plugin.interpolation.version>
         <felix.http.inventoryprinter>1.0.0-SNAPSHOT</felix.http.inventoryprinter>
         <felix.http.webconsoleplugin>1.0.0-SNAPSHOT</felix.http.webconsoleplugin>
+        <felix.http.servlet-api.version>1.2.0</felix.http.servlet-api.version>
         <!-- Apache Felix Dependencies End -->
     </properties>
 
@@ -535,6 +536,13 @@
                 <groupId>org.apache.felix</groupId>
                 <artifactId>org.apache.felix.http.webconsoleplugin</artifactId>
                 <version>${felix.http.webconsoleplugin}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.http.servlet-api</artifactId>
+                <version>${felix.http.servlet-api.version}</version>
                 <scope>provided</scope>
             </dependency>
 
