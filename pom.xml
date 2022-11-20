@@ -51,6 +51,7 @@
         <osgi.service.cm.version>1.6.1</osgi.service.cm.version>
         <osgi.service.log.version>1.4.0</osgi.service.log.version>
         <osgi.service.http.whiteboard.version>1.1.1</osgi.service.http.whiteboard.version>
+        <osgi.service.servlet.version>2.0.0-RC1</osgi.service.servlet.version>
         <osgi.service.jdbc.version>1.0.1</osgi.service.jdbc.version>
         <osgi.service.event.version>1.4.1</osgi.service.event.version>
         <osgi.util.tracker.version>1.5.3</osgi.util.tracker.version>
@@ -241,6 +242,13 @@
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.service.http.whiteboard</artifactId>
                 <version>${osgi.service.http.whiteboard.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.service.servlet</artifactId>
+                <version>${osgi.service.servlet.version}</version>
                 <scope>provided</scope>
             </dependency>
 
