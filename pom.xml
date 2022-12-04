@@ -36,7 +36,8 @@
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.4.1</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0</maven-deploy-plugin.version>
-        <maven-install-plugin.version>3.0.1</maven-install-plugin.version>
+        <maven-install-plugin.version>3.1.0</maven-install-plugin.version>
+        <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
         <versions-maven-plugin.version>2.12.0</versions-maven-plugin.version>
 
@@ -50,6 +51,7 @@
         <osgi.service.cm.version>1.6.1</osgi.service.cm.version>
         <osgi.service.log.version>1.4.0</osgi.service.log.version>
         <osgi.service.http.whiteboard.version>1.1.1</osgi.service.http.whiteboard.version>
+        <osgi.service.servlet.version>2.0.0-RC1</osgi.service.servlet.version>
         <osgi.service.jdbc.version>1.0.1</osgi.service.jdbc.version>
         <osgi.service.event.version>1.4.1</osgi.service.event.version>
         <osgi.util.tracker.version>1.5.3</osgi.util.tracker.version>
@@ -64,10 +66,10 @@
 
         <!-- Apache Felix Dependencies Start -->
         <felix.framework.version>7.0.5</felix.framework.version>
-        <felix.http.bridge.version>4.2.2</felix.http.bridge.version>
-        <felix.http.base.version>4.2.2</felix.http.base.version>
+        <felix.http.bridge.version>5.0.0-SNAPSHOT</felix.http.bridge.version>
+        <felix.http.base.version>5.0.0-SNAPSHOT</felix.http.base.version>
         <felix.webconsole.version>4.8.4</felix.webconsole.version>
-        <felix.configurator.version>1.0.16</felix.configurator.version>
+        <felix.configurator.version>1.0.18</felix.configurator.version>
         <felix.converter.version>1.0.18</felix.converter.version>
         <felix.webconsole.plugins.packageadmin.version>1.0.4</felix.webconsole.plugins.packageadmin.version>
         <felix.webconsole.plugins.event.version>1.1.8</felix.webconsole.plugins.event.version>
@@ -78,12 +80,15 @@
         <felix.metatype.version>1.2.4</felix.metatype.version>
         <felix.threaddump.version>1.0.0</felix.threaddump.version>
         <felix.fileinstall.version>3.7.4</felix.fileinstall.version>
-        <felix.http.sslfilter.version>1.2.6</felix.http.sslfilter.version>
+        <felix.http.sslfilter.version>2.0.0-SNAPSHOT</felix.http.sslfilter.version>
         <felix.scr.version>2.2.4</felix.scr.version>
         <felix.configadmin.version>1.9.26</felix.configadmin.version>
         <felix.eventadmin.version>1.6.4</felix.eventadmin.version>
-        <felix.cm.json.version>1.0.8</felix.cm.json.version>
+        <felix.cm.json.version>2.0.0</felix.cm.json.version>
         <felix.configadmin.plugin.interpolation.version>1.2.6</felix.configadmin.plugin.interpolation.version>
+        <felix.http.inventoryprinter>1.0.0-SNAPSHOT</felix.http.inventoryprinter>
+        <felix.http.webconsoleplugin>1.0.0-SNAPSHOT</felix.http.webconsoleplugin>
+        <felix.http.servlet-api.version>1.2.0</felix.http.servlet-api.version>
         <!-- Apache Felix Dependencies End -->
     </properties>
 
@@ -145,6 +150,12 @@
     <build>
 
         <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>${maven-clean-plugin.version}</version>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -231,6 +242,13 @@
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.service.http.whiteboard</artifactId>
                 <version>${osgi.service.http.whiteboard.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.service.servlet</artifactId>
+                <version>${osgi.service.servlet.version}</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -520,6 +538,27 @@
                         <artifactId>org.osgi.service.log</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.http.inventoryprinter</artifactId>
+                <version>${felix.http.inventoryprinter}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.http.webconsoleplugin</artifactId>
+                <version>${felix.http.webconsoleplugin}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.http.servlet-api</artifactId>
+                <version>${felix.http.servlet-api.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <!-- Apache Felix Dependencies End -->
