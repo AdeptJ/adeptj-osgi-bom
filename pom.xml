@@ -57,9 +57,9 @@
         <osgi.util.tracker.version>1.5.3</osgi.util.tracker.version>
         <osgi.service.metatype.version>1.4.1</osgi.service.metatype.version>
         <osgi.util.converter.version>1.0.9</osgi.util.converter.version>
-        <osgi.util.pushstream.version>1.0.2</osgi.util.pushstream.version>
+        <osgi.util.pushstream.version>1.1.0-RC1</osgi.util.pushstream.version>
         <osgi.service.configurator.version>1.0.1</osgi.service.configurator.version>
-        <osgi.util.promise.version>1.2.0</osgi.util.promise.version>
+        <osgi.util.promise.version>1.3.0-RC1</osgi.util.promise.version>
         <osgi.util.function.version>1.2.0</osgi.util.function.version>
         <osgi.service.condition.version>1.0.0</osgi.service.condition.version>
         <!-- OSGi Dependencies End -->
