@@ -66,8 +66,8 @@
 
         <!-- Apache Felix Dependencies Start -->
         <felix.framework.version>7.0.5</felix.framework.version>
-        <felix.http.bridge.version>5.0.0-SNAPSHOT</felix.http.bridge.version>
-        <felix.http.base.version>5.0.0-SNAPSHOT</felix.http.base.version>
+        <felix.http.bridge.version>5.0.0</felix.http.bridge.version>
+        <felix.http.base.version>5.0.0</felix.http.base.version>
         <felix.webconsole.version>4.8.4</felix.webconsole.version>
         <felix.configurator.version>1.0.18</felix.configurator.version>
         <felix.converter.version>1.0.18</felix.converter.version>
@@ -80,14 +80,14 @@
         <felix.metatype.version>1.2.4</felix.metatype.version>
         <felix.threaddump.version>1.0.0</felix.threaddump.version>
         <felix.fileinstall.version>3.7.4</felix.fileinstall.version>
-        <felix.http.sslfilter.version>2.0.0-SNAPSHOT</felix.http.sslfilter.version>
+        <felix.http.sslfilter.version>2.0.0</felix.http.sslfilter.version>
         <felix.scr.version>2.2.4</felix.scr.version>
         <felix.configadmin.version>1.9.26</felix.configadmin.version>
         <felix.eventadmin.version>1.6.4</felix.eventadmin.version>
         <felix.cm.json.version>2.0.0</felix.cm.json.version>
         <felix.configadmin.plugin.interpolation.version>1.2.6</felix.configadmin.plugin.interpolation.version>
-        <felix.http.inventoryprinter>1.0.0-SNAPSHOT</felix.http.inventoryprinter>
-        <felix.http.webconsoleplugin>1.0.0-SNAPSHOT</felix.http.webconsoleplugin>
+        <felix.http.inventoryprinter>1.0.0</felix.http.inventoryprinter>
+        <felix.http.webconsoleplugin>1.0.0</felix.http.webconsoleplugin>
         <felix.http.servlet-api.version>1.2.0</felix.http.servlet-api.version>
         <!-- Apache Felix Dependencies End -->
     </properties>
