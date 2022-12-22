@@ -1,3 +1,3 @@
 # adeptj-osgi-bom
-The Bill of Materials for OSGi(Felix) Framework dependencies.
+The Bill of Materials for OSGi and Apache Felix Framework dependencies.
 

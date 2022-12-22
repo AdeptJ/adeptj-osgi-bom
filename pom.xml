@@ -18,7 +18,8 @@
 #                                                                             #
 ###############################################################################
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
@@ -26,7 +27,7 @@
     <version>7</version>
     <packaging>pom</packaging>
     <name>AdeptJ OSGi Bill of Materials</name>
-    <description>The Bill of Materials for OSGi(Felix) Framework dependencies.</description>
+    <description>The Bill of Materials for OSGi and Apache Felix Framework dependencies.</description>
     <url>https://www.adeptj.com</url>
     <inceptionYear>2016</inceptionYear>
 
@@ -367,16 +368,6 @@
                 <artifactId>org.apache.felix.webconsole</artifactId>
                 <version>${felix.webconsole.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.core</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.compendium</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -419,12 +410,6 @@
                 <artifactId>org.apache.felix.inventory</artifactId>
                 <version>${felix.inventory.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>junit</groupId>
-                        <artifactId>junit</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -432,16 +417,6 @@
                 <artifactId>org.apache.felix.webconsole.plugins.memoryusage</artifactId>
                 <version>${felix.webconsole.plugins.memoryusage.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.core</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.compendium</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -449,16 +424,6 @@
                 <artifactId>org.apache.felix.threaddump</artifactId>
                 <version>${felix.threaddump.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.core</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.apache.felix</groupId>
-                        <artifactId>org.apache.felix.inventory</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -466,16 +431,6 @@
                 <artifactId>org.apache.felix.webconsole.plugins.event</artifactId>
                 <version>${felix.webconsole.plugins.event.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.core</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.compendium</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -490,16 +445,6 @@
                 <artifactId>org.apache.felix.webconsole.plugins.packageadmin</artifactId>
                 <version>${felix.webconsole.plugins.packageadmin.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.core</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.compendium</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -528,16 +473,6 @@
                 <artifactId>org.apache.felix.log</artifactId>
                 <version>${felix.log.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>osgi.core</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.service.log</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
