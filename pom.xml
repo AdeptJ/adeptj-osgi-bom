@@ -86,7 +86,7 @@
         <felix.configadmin.version>1.9.26</felix.configadmin.version>
         <felix.eventadmin.version>1.6.4</felix.eventadmin.version>
         <felix.cm.json.version>2.0.0</felix.cm.json.version>
-        <felix.configadmin.plugin.interpolation.version>1.2.6</felix.configadmin.plugin.interpolation.version>
+        <felix.configadmin.plugin.interpolation.version>1.2.8</felix.configadmin.plugin.interpolation.version>
         <felix.http.inventoryprinter>1.0.0</felix.http.inventoryprinter>
         <felix.http.webconsoleplugin>1.0.0</felix.http.webconsoleplugin>
         <felix.http.servlet-api.version>1.2.0</felix.http.servlet-api.version>
