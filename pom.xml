@@ -53,7 +53,7 @@
         <osgi.service.log.version>1.5.0</osgi.service.log.version>
         <osgi.service.http.whiteboard.version>1.1.1</osgi.service.http.whiteboard.version>
         <osgi.service.servlet.version>2.0.0</osgi.service.servlet.version>
-        <osgi.service.jdbc.version>1.0.1</osgi.service.jdbc.version>
+        <osgi.service.jdbc.version>1.1.0</osgi.service.jdbc.version>
         <osgi.service.event.version>1.4.1</osgi.service.event.version>
         <osgi.util.tracker.version>1.5.4</osgi.util.tracker.version>
         <osgi.service.metatype.version>1.4.1</osgi.service.metatype.version>
