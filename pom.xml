@@ -69,13 +69,13 @@
         <felix.framework.version>7.0.5</felix.framework.version>
         <felix.http.bridge.version>5.1.0</felix.http.bridge.version>
         <felix.http.base.version>5.1.0</felix.http.base.version>
-        <felix.webconsole.version>4.9.0</felix.webconsole.version>
+        <felix.webconsole.version>4.9.2</felix.webconsole.version>
         <felix.configurator.version>1.0.18</felix.configurator.version>
         <felix.converter.version>1.0.18</felix.converter.version>
-        <felix.webconsole.plugins.packageadmin.version>1.0.4</felix.webconsole.plugins.packageadmin.version>
-        <felix.webconsole.plugins.event.version>1.1.8</felix.webconsole.plugins.event.version>
-        <felix.webconsole.plugins.ds.version>2.2.0</felix.webconsole.plugins.ds.version>
-        <felix.webconsole.plugins.memoryusage.version>1.0.10</felix.webconsole.plugins.memoryusage.version>
+        <felix.webconsole.plugins.packageadmin.version>1.1.0</felix.webconsole.plugins.packageadmin.version>
+        <felix.webconsole.plugins.event.version>1.2.0</felix.webconsole.plugins.event.version>
+        <felix.webconsole.plugins.ds.version>2.3.0</felix.webconsole.plugins.ds.version>
+        <felix.webconsole.plugins.memoryusage.version>1.1.0</felix.webconsole.plugins.memoryusage.version>
         <felix.inventory.version>2.0.0</felix.inventory.version>
         <felix.log.version>1.3.0</felix.log.version>
         <felix.metatype.version>1.2.4</felix.metatype.version>
@@ -87,8 +87,8 @@
         <felix.eventadmin.version>1.6.4</felix.eventadmin.version>
         <felix.cm.json.version>2.0.0</felix.cm.json.version>
         <felix.configadmin.plugin.interpolation.version>1.2.8</felix.configadmin.plugin.interpolation.version>
-        <felix.http.inventoryprinter>1.0.0</felix.http.inventoryprinter>
-        <felix.http.webconsoleplugin>1.0.0</felix.http.webconsoleplugin>
+        <felix.http.inventoryprinter.version>1.0.0</felix.http.inventoryprinter.version>
+        <felix.http.webconsoleplugin.version>1.1.0</felix.http.webconsoleplugin.version>
         <felix.http.servlet-api.version>1.2.0</felix.http.servlet-api.version>
         <!-- Apache Felix Dependencies End -->
     </properties>
@@ -478,14 +478,14 @@
             <dependency>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>org.apache.felix.http.inventoryprinter</artifactId>
-                <version>${felix.http.inventoryprinter}</version>
+                <version>${felix.http.inventoryprinter.version}</version>
                 <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>org.apache.felix.http.webconsoleplugin</artifactId>
-                <version>${felix.http.webconsoleplugin}</version>
+                <version>${felix.http.webconsoleplugin.version}</version>
                 <scope>provided</scope>
             </dependency>
 
