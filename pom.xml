@@ -24,7 +24,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-osgi-bom</artifactId>
-    <version>13</version>
+    <version>14</version>
     <packaging>pom</packaging>
     <name>AdeptJ OSGi Bill of Materials</name>
     <description>The Bill of Materials for OSGi and Apache Felix Framework dependencies.</description>
