@@ -82,10 +82,10 @@
         <felix.threaddump.version>1.0.0</felix.threaddump.version>
         <felix.fileinstall.version>3.7.4</felix.fileinstall.version>
         <felix.http.sslfilter.version>2.0.2</felix.http.sslfilter.version>
-        <felix.scr.version>2.2.6</felix.scr.version>
+        <felix.scr.version>2.2.10</felix.scr.version>
         <felix.configadmin.version>1.9.26</felix.configadmin.version>
         <felix.eventadmin.version>1.6.4</felix.eventadmin.version>
-        <felix.cm.json.version>2.0.4</felix.cm.json.version>
+        <felix.cm.json.version>2.0.6</felix.cm.json.version>
         <felix.configadmin.plugin.interpolation.version>1.2.8</felix.configadmin.plugin.interpolation.version>
         <felix.http.inventoryprinter.version>1.0.0</felix.http.inventoryprinter.version>
         <felix.http.webconsoleplugin.version>1.1.0</felix.http.webconsoleplugin.version>
