@@ -88,7 +88,7 @@
         <felix.cm.json.version>2.0.6</felix.cm.json.version>
         <felix.configadmin.plugin.interpolation.version>1.2.8</felix.configadmin.plugin.interpolation.version>
         <felix.http.inventoryprinter.version>1.0.2</felix.http.inventoryprinter.version>
-        <felix.http.webconsoleplugin.version>1.2.0</felix.http.webconsoleplugin.version>
+        <felix.http.webconsoleplugin.version>1.2.2</felix.http.webconsoleplugin.version>
         <felix.http.servlet-api.version>1.2.0</felix.http.servlet-api.version>
         <!-- Apache Felix Dependencies End -->
     </properties>
