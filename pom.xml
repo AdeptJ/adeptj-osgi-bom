@@ -36,12 +36,12 @@
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
-        <maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
-        <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
+        <maven-deploy-plugin.version>3.2.0</maven-deploy-plugin.version>
+        <maven-install-plugin.version>3.2.0</maven-install-plugin.version>
         <maven-clean-plugin.version>3.5.0</maven-clean-plugin.version>
-        <maven-enforcer-plugin.version>3.6.3</maven-enforcer-plugin.version>
-        <central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
-        <versions-maven-plugin.version>2.21.0</versions-maven-plugin.version>
+        <maven-enforcer-plugin.version>3.7.0</maven-enforcer-plugin.version>
+        <central-publishing-maven-plugin.version>0.12.0</central-publishing-maven-plugin.version>
+        <versions-maven-plugin.version>2.23.0</versions-maven-plugin.version>
 
         <!-- OSGi Dependencies Start -->
         <osgi.framework.version>1.10.0</osgi.framework.version>
@@ -167,10 +167,12 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>[3.6.3,4.0.0]</version>
+                                    <!-- Maven 3.9.0 or newer-->
+                                    <version>[3.9.0,)</version>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
-                                    <version>[17,25)</version>
+                                    <!-- Java 21 or newer-->
+                                    <version>[21,)</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
